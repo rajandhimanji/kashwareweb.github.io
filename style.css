@@ -1,0 +1,159 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  background-size: cover;
+  background-position: centre;
+  top: 0px;
+left: 0px;
+background: #191919 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #BEBEBE1A;
+opacity: 1;
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+
+}
+
+ul{
+float: right;
+list-style-type: none;
+margin-top: 25px;
+}
+
+ul li{
+
+display:inline-block;
+}
+
+ul li a{
+  color: white;
+  text-decoration: none;
+  text-emphasis-color: white;
+  transition: 0.6s ease;
+  margin-right: 100px;
+  list-style:none;
+   display:table;
+   width:100%;
+  word-spacing:-.3em;
+  padding-left: 0px;
+  padding: 0.3px;
+  top: 14px;
+
+}
+
+}
+ul li a: hover{
+  background-color: white;
+  colour: 00;
+}
+ul li.active a{
+  background-color: #fff;
+  color:#000;
+}
+.title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+
+.logo img{
+  top: 14px;
+  left: 444px;
+  width: 71px;
+  height: 78px;
+
+}
+.title h1{
+  display:inline;
+  margin-left:0px;
+  margin-right:0px;
+  width: 2%;
+  text-align: justify;
+  text-align: center;
+font: normal normal bold 70px/100px SF pro Display;
+letter-spacing: 0px;
+color: #E5DFD8;
+opacity: 1;
+}
+.title h2{
+  font-size: 50px;
+  color: white;
+  position:absolute;
+}
+.title h3{
+  font-size: 30px;
+  color:white;
+}
+
+
+
+ .header {
+  padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+  background: #191919 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #BEBEBE1A;
+opacity: 1;
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+}
+.body img{
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+.CHANGER {
+   position:absolute;
+  top: 50%;
+  left:40%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 400px;
+}
+.container{
+  height: 100vh;
+  width: 100%;
+  background-image: url(200.PNG);
+background-size: cover;
+background-position: center;
+background-repeat:repeat;
+transition: 3;
+
+animation-name: animate;
+animation-direction: alternate-reverse;
+animation-duration: 20s;
+animation-fill-mode: forwards;
+animation-iteration-coun: infinite;
+animation-play-state: running;
+animation-timing-function: ease-in-out;
+}
+@keyframes animate{
+0%
+{
+  background-image:url(209.PNG);
+}10%{
+  background-image:url(208.PNG);
+}20%{
+  background-image:url(207.PNG);
+}30%{
+  background-image: url(206.PNG);
+
+}40%{
+  background-image: url(205.PNG);
+}50%{
+  background-image: url(204.PNG);
+}60%{
+  background-image: url(203.PNG);
+}70%{
+  background-image: url(202.PNG);
+}80%{
+  background-image: url(201.PNG);
+}90%{
+background-image: url(200.PNG);
+}
+}
